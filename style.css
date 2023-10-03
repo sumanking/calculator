@@ -1,0 +1,90 @@
+
+        .calculator{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            background-color: #FF3FA4;
+        }
+        .calculator>.container>h1{
+            color: #191D88;
+            margin-left: 40px;
+        }
+        .contaier{
+            background-color: aquamarine;
+            padding: 20px;
+            border-radius: 10px; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .b1{
+            height: 5rem;
+            width: 5rem;
+            font-size: 2rem;
+            border-radius: 50%;
+            padding: 20px;
+            margin: 7px;
+            margin-left: 10px;
+            border: 2px solid #191D88;
+            box-shadow: 5px 5px #0E21A0;
+            cursor: pointer;
+            background-color: #A6F6FF;
+            color: rgb(28, 25, 25);
+            
+        }
+        .b1:hover{
+            background-color: #40F8FF;
+        }
+        #display{
+            height: 5rem;
+            width: 24rem;
+            display: flex;
+            font-size: 2rem;
+            border: 4px solid #45FFCA;
+            border-radius: 15px;
+            
+        }
+        .st1{
+            width: 24.4rem;
+            background-color: #BEFFF7;
+            
+            display: flex;
+            align-items: center;
+            align-content: center;
+            margin-left: 1px;
+            
+        
+        }
+        .st11{
+            width: 24.4rem;
+            background-color: #BEFFF7;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            margin-left: 1px;
+            
+        }
+        .st12{
+            width: 24.4rem;
+            background-color: #BEFFF7;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            margin-left: 1px;
+            bor
+            
+        }
+        .calculator>.container>h4{
+            display: flex;
+            align-items: center;
+            margin-left: 31.8%;
+            font-size: large;
+            color: white;
+        }
